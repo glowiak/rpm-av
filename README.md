@@ -14,6 +14,14 @@ Package for ArchLinux that contains prebuild java 1.6.0 runtime can be downloade
 - rpm-av /path/to/rpm/package /
 - Instead of normal use method
 
+# Installing from archtools repository on Arch
+rpm-av can be also installed from 'archtools' repository; First add this repository:
+  - "
+  - [archtools]
+  - SigLevel = Never
+  - Server = http://github.com/glowiak/arch-tools/releases/download/server
+  - " Add this to /etc/pacman.conf, and run 'pacman -Syy', then install rpm-av package with pacman -S
+
 # Usage
   - To install a package uses following syntax:
   - $(which java) -jar rpm-av.jar /path/to/rpm/package /
