@@ -6,10 +6,13 @@
 - java (recommended version is 1.6.0)
 
 # Download
-Both binary and source are available [here](https://glowiak.github.io/rpm-av/distfiles.html)
+Both binary and source are available [here](https://glowiak.github.io/rpm-av/distfiles)
 
 # ArchPKG
-Cooming soon
+Package for ArchLinux that contains prebuild java 1.6.0 runtime can be downloaded from [here](https://glowiak.github.io/rpm-av/distfiles)
+- Use:
+- rpm-av /path/to/rpm/package /
+- Instead of normal use method
 
 # Usage
   - To install a package uses following syntax:
